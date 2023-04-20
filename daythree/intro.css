@@ -1,0 +1,11 @@
+*
+{
+    background-origin: padding-box;
+    border-radius: 20px;
+    border-color: rgb(97, 29, 63);
+    color: rgb(213, 33, 57);
+}
+#b1:hover
+{
+    color: #e72fb3;
+}

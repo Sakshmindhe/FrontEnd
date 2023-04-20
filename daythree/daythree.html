@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head><title>JavaScript</title></head>
+    <body>
+        <h1>Introduction to JavaScript</h1>
+        <p>A JavaScript is a scripting language and it is used for to
+            create dynamic web page.
+        </p>
+        <!--Internal Javascript-->
+
+        <!--script lang="javascript" type="text/javascript">
+            <it will write the contents on web page>
+            document.write("Welcome to JavaScript Tutorial")
+        </script-->
+        
+        <!--script src="daythree.js">
+        </script-->
+        
+            <h2>Showing image with a click in JavaScript</h2>
+            <button id="show-image-button">Show Image</button>
+            <img id="my-image" src="https://cdn-icons-png.flaticon.com/512/226/226777.png" style="display: none;">
+            <script>
+               const showImageButton = document.getElementById("show-image-button");
+               const myImage = document.getElementById("my-image"); 
+               showImageButton.addEventListener("click", () => { 
+                  myImage.style.display = "block"; 
+               });
+            </script>
+    </body>
+</html>
+
